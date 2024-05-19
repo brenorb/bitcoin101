@@ -12,19 +12,19 @@
       link: /blog/
 - title: Social
   links:
-    - name: Facebook
-      link: http://facebook.com/cloudcannon/
-      social_icon: Facebook
-      new_window: true
+    # - name: Facebook
+    #   link: http://facebook.com/cloudcannon/
+    #   social_icon: Facebook
+    #   new_window: true
     - name: Twitter
-      link: http://twitter.com/cloudcannon
+      link: http://twitter.com/brenorb
       social_icon: Twitter
       new_window: true
-    - name: Instagram
-      link: http://instagram.com/
-      social_icon: Instagram
-      new_window: true
+    # - name: Instagram
+    #   link: http://instagram.com/
+    #   social_icon: Instagram
+    #   new_window: true
     - name: LinkedIn
-      link: https://nz.linkedin.com/company/cloud-cannon/
+      link: https://nz.linkedin.com/in/brenorb/
       social_icon: LinkedIn
       new_window: true
