@@ -48,14 +48,15 @@ h6 {
 }
 
 h1 {
-	// font-size: 6.5rem;
-	font-size: 4.5rem;
+	font-size: 6.5rem;
+	// font-size: 4.5rem; // new
 	line-height: 80px;
 	margin: 0 -10px 0 0;
 
 	@media (min-width: $mobile-break) {
 		line-height: 100px;
-		font-size: 8rem;
+		font-size: 4rem; // new
+		// font-size: 8rem;
 	}
 }
 
