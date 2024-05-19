@@ -28,7 +28,7 @@
       link: https://linkedin.com/in/brenorb/
       social_icon: LinkedIn
       new_window: true
-    - name: Nostr
-      link: https://linkedin.com/in/brenorb/
-      social_icon: Nostr
-      new_window: true
+    # - name: Nostr
+    #   link: https://linkedin.com/in/brenorb/
+    #   social_icon: Nostr
+    #   new_window: true
