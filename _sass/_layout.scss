@@ -37,7 +37,8 @@ header {
 		}
 
 		.container {
-			text-align: right;
+			/* text-align: right; */
+			text-align: left; //new
 		}
 	}
 
@@ -47,7 +48,8 @@ header {
 		ul {
 			list-style: none;
 			margin: 0;
-			padding: 0;
+			/* padding: 0; */
+			padding: 0 10px 0 410px; //new
 
 			li {
 				display: inline-block;
