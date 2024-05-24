@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Justice Template title config
-url: "https://orchid-heron.cloudvent.net"
+title: 101 Perguntas sobre Bitcoin
+url: "https://bitcoin101.site"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -10,11 +10,12 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Jekyll template with example content for a law firm.
+description: Aprenda Bitcoin de forma eficiente.
 author:
   name: Breno Brito
   email:
   twitter: brenorb # twitter username without the @ symbol
+  website: https://brenorb.github.io/
 social:
   name: Justice Template social config name links
   links:
@@ -23,7 +24,8 @@ social:
 # -----
 # Build
 
-timezone: Etc/UTC
+# timezone: Etc/UTC
+timezone: America/Sao_Paulo
 
 paginate: 10
 paginate_path: "/blog/:num/"
