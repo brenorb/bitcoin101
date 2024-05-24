@@ -1,8 +1,8 @@
 ---
-title: Versão estendida - Os 7 fundamentos do maximalismo do bitcoin
+title: Os 7 fundamentos do maximalismo do bitcoin
 date: 2023-05-26 00:00:00
 categories:
-  - Capítulo Extendido
+  - Capítulo Estendido
   - Filosofia
 author_staff_member: breno-brito
 image: "https://unsplash.it/600/450?image=737&a=.png"
@@ -75,7 +75,7 @@ Pense bem: você acharia justo que o governo do seu país pré-minerasse a moeda
 [^S2F]: S2F
 
 
-Pode ter sido coincidência? A teoria, a lógica e a experiência indicam que não, já que todas as sociedades desenvolvem uma forma de dinheiro a partir de certa escala ao invés de usar o escambo, justamente por ser extremamente mais eficiente e simples. A matemática também indica que tendemos a sempre ter uma única rede: sabemos pela lei de Metcalfe que o valor de uma rede é o quadrado dos seus nós e junto com a inequalidade de Jensen temos $(a+b)^2 \geq a^2 + b^2$, ou seja, em geral os benefícios de uma única rede superam os de várias redes somadas; este o motivo do facebook engolir o orkut e se manter basicamente invicto[^redes].
+Pode ter sido coincidência? A teoria, a lógica e a experiência indicam que não, já que todas as sociedades desenvolvem uma forma de dinheiro a partir de certa escala ao invés de usar o escambo, justamente por ser extremamente mais eficiente e simples. A matemática também indica que tendemos a sempre ter uma única rede: sabemos pela lei de Metcalfe que o valor de uma rede é o quadrado dos seus nós e junto com a inequalidade de Jensen temos \\( (a+b)^2 \geq a^2 + b^2 \\), ou seja, em geral os benefícios de uma única rede superam os de várias redes somadas; este o motivo do facebook engolir o orkut e se manter basicamente invicto[^redes].
 
 [^redes]: Existem redes sociais que competem com o facebook como o twitter, mas elas são distintas o suficiente para coexistirem.
 
@@ -105,3 +105,7 @@ Ou seja, além do bitcoin cumprir as 6 propriedades acima, ainda teve uma concep
 ## Conclusão
 
 Em resumo, o maximalista acredita que o bitcoin é a única criptomoeda que traz como caso de uso principal um dinheiro forte, descentralizado, politicamente neutro, antifrágil, perene, ético e é praticamente impossível de ser replicado. Isso significa que pode ser a única chance que temos.
+
+---
+
+Originalmente publicado no [blog do Mercado Bitcoin](https://www.mercadobitcoin.com.br/economia-digital/bitcoin/os-7-fundamentos-do-maximalismo-do-bitcoin/) em 26 de maio 2023.
