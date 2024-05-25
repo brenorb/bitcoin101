@@ -31,13 +31,14 @@
 				<h1><a href="{{ site.baseurl }}/">{{ site.data.company.title }}</a></h1>
 				<nav>
 					<ul>
+						<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="https://bit.ly/101BTC">Compre</a></li> <!-- Adicionado -->
 						{% assign nav_pages = site.html_pages | where: 'show_in_navigation', true | sort: 'navigation_order' %}
 						{% for nav_page in nav_pages %}
 							{% if previous_page.path != nav_page.path %}
 								{% assign previous_page = nav_page %}
 								<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a></li>
 							{% endif %}
-							{% endfor %}
+						{% endfor %}
 						<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="{{ site.author.website }}">Autor</a></li> <!-- Adicionado -->
 					</ul>
 				</nav>
@@ -59,6 +60,7 @@
 				<p class="container editable">
 					<!-- <a href="{{ site.baseurl }}/contact/">Contact us</a> today to find out how we can help you. Your first consultation is free. -->
 					<a href="https://bit.ly/101BTC">Compre</a> o livro e adquira uma compreensão sólida e objetiva sobre o universo do Bitcoin, desmistificando o tema com respostas diretas e acessíveis.
+					<button class="btn" onclick="window.location.href='https://www.bit.ly/101BTC';">Compre aqui</button>
 				</p>
 			</section>
 		{% else %}

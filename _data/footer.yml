@@ -1,9 +1,9 @@
-- title: Pages
+- title: Páginas
   links:
     - name: Home
       link: /
-    # - name: About
-    #   link: /about/
+    - name: Compre o Livro
+      link: https://bit.ly/101BTC
     # - name: Services
     #   link: /services/
     - name: Material Complementar
