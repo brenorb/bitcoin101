@@ -6,6 +6,13 @@ layout: page
 
 <div>{{ content }}</div>
 
+
+{% if site.mathjax == true %}
+<!-- MathJax -->
+<script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+{% endif %}
+
+
 <h2>Meet the author</h2>
 <div class="post-author staff">
 	{% assign author_id = page.author_staff_member | prepend: "/staff_members/" | append: "/" %}

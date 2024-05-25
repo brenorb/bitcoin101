@@ -38,7 +38,7 @@
 								<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a></li>
 							{% endif %}
 							{% endfor %}
-						<li><a class="active" href="{{ site.author.website }}">Autor</a></li> <!-- Adicionado -->
+						<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="{{ site.author.website }}">Autor</a></li> <!-- Adicionado -->
 					</ul>
 				</nav>
 			</div>
@@ -57,13 +57,15 @@
 		{% elsif page.call_to_action == 'Contact' %}
 			<section class="quote-section">
 				<p class="container editable">
-					<a href="{{ site.baseurl }}/contact/">Contact us</a> today to find out how we can help you. Your first consultation is free.
+					<!-- <a href="{{ site.baseurl }}/contact/">Contact us</a> today to find out how we can help you. Your first consultation is free. -->
+					Compre o livro <a href="https://bit.ly/101BTC/">aqui</a>.
 				</p>
 			</section>
 		{% else %}
 			<section class="quote-section">
 				<p class="container editable">
-					<a href="{{ site.baseurl }}/blog/">Read our blog</a> for an introduction and quick tips on various areas of the law.
+					<!-- <a href="{{ site.baseurl }}/blog/">Read our blog</a> for an introduction and quick tips on various areas of the law. -->
+					Leia nossos materiais complementares <a href="{{ site.baseurl }}/blog/">aqui</a>.
 				</p>
 			</section>
 		{% endif %}

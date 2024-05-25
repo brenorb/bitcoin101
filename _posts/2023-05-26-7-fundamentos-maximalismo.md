@@ -109,3 +109,5 @@ Em resumo, o maximalista acredita que o bitcoin é a única criptomoeda que traz
 ---
 
 Originalmente publicado no [blog do Mercado Bitcoin](https://www.mercadobitcoin.com.br/economia-digital/bitcoin/os-7-fundamentos-do-maximalismo-do-bitcoin/) em 26 de maio 2023.
+
+---
