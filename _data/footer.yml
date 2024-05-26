@@ -2,8 +2,6 @@
   links:
     - name: Home
       link: /
-    - name: Compre o Livro
-      link: https://bit.ly/101BTC
     # - name: Services
     #   link: /services/
     - name: Material Complementar
@@ -12,6 +10,8 @@
       link: /contact/
     - name: Autor
       link: https://brenorb.github.io/
+    - name: Compre o Livro
+      link: https://bit.ly/101BTC
 - title: Social
   links:
     # - name: Facebook
