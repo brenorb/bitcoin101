@@ -5,7 +5,7 @@ categories:
   - Capítulo Estendido
   - Filosofia
 author_staff_member: breno-brito
-image: "https://unsplash.it/600/450?image=737&a=.png"
+image: "/uploads/pilares.png"
 large_header: false
 ---
 

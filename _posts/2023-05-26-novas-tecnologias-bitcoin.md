@@ -5,7 +5,7 @@ categories:
   - Capítulo aberto
   - Tecnologia
 author_staff_member: breno-brito
-image: "https://portaldobitcoin.uol.com.br/wp-content/uploads/sites/6/2023/06/simbolo-do-bitcoin-em-celular.jpg"
+image: "/uploads/tecnologia.png"
 large_header: false
 ---
 
