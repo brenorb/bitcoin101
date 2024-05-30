@@ -51,14 +51,14 @@ h1 {
 	font-size: 6.5rem;
 	/* font-size: 4.5rem; */ // new
 	line-height: 80px;
-	margin: 0 -20px 0 410px; //new
+	margin: 0; //new
 	/* margin: 0 -10px 0 0; */
 
 	@media (min-width: $mobile-break) {
 		/* line-height: 100px; */
-		line-height: 80px;
-		font-size: 8rem;
-		/* font-size: 4rem; */ //new
+		line-height: 140%; // new
+		font-size: 3.5rem; // new
+		/* font-size: 8rem; */
 	}
 }
 
