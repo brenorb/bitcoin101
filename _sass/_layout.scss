@@ -29,7 +29,7 @@ header {
 	}
 	
 	.container {
-		text-align: center;
+		text-align: left; // new
 		margin: 0 80px; // new
 		max-width: 100%; // new
 	}
@@ -48,13 +48,14 @@ header {
 		}
 
 		&.main-hero {
-			height: 80vh;
+			height: 490px; // new
+			// height: 80vh;
 			background-position: calc(50% - 350px) calc(100% + 20px);
 		}
 
 		.container {
 			/* text-align: right; */
-			text-align: left; // new
+			text-align: center; // new
 			margin: 0px 16px; // new
 		}
 		.container-flex{
