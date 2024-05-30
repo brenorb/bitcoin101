@@ -36,6 +36,8 @@ header {
 	
 	.container-flex{
 		display: flex; // new
+		align-items: center; // new
+		gap: 1rem; // new
 	}
 
 	@media (max-width: $mobile-break) { // from min to max
