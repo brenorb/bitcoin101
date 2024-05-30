@@ -17,11 +17,32 @@ body {
 }
 
 header {
-	background-size: cover;
+	display: flex;
+    flex-direction: column; /* Stack on top for mobile */
+    height: auto;
+
+	.header-image {
+        background-image: url('/uploads/building.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 200px; /* Adjust as needed for mobile */
+        width: 100%;
+    }
+
+	/* background-size: cover;
 	background-repeat: no-repeat;
 	background-position: calc(50% - 40px) 175px;
 	height: 420px;
-	box-sizing: border-box;
+	box-sizing: border-box; */
+
+	.header-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 30px 20px;
 
 	.container {
 		text-align: center;
