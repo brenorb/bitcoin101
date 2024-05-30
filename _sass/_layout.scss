@@ -22,7 +22,7 @@ header {
 	background-position: calc(50% - 40px) 175px;
 	height: 420px;
 	box-sizing: border-box;
-
+	
 	.container {
 		text-align: center;
 	}
@@ -33,6 +33,11 @@ header {
 	@media (min-width: $mobile-break) {
 		background-size: contain;
 		background-position: calc(50% - 300px) calc(100% + 20px);
+		padding-bottom: 0px; // new
+		height: 579px; // new
+		img { 
+			width: 274px;
+		}
 
 		&.main-hero {
 			height: 80vh;
@@ -41,7 +46,11 @@ header {
 
 		.container {
 			/* text-align: right; */
-			text-align: left; //new
+			text-align: left; // new
+			margin: 0px 16px; // new
+		}
+		.container-flex{
+			flex-direction: column-reverse; // new
 		}
 	}
 
