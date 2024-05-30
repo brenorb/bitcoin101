@@ -26,6 +26,9 @@ header {
 	.container {
 		text-align: center;
 	}
+	.container-flex{
+		display: flex; // new
+	}
 
 	@media (min-width: $mobile-break) {
 		background-size: contain;
