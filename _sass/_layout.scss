@@ -39,6 +39,11 @@ header {
 		align-items: center; // new
 		gap: 1rem; // new
 	}
+	@media (min-width: 360px) and (max-width: 378px) {
+		img { 
+			width: 190px; // new
+		}
+	}
 
 	@media (max-width: $mobile-break) { // from min to max
 		background-size: contain;
