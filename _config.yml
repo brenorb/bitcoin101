@@ -40,7 +40,7 @@ defaults:
     values:
       layout: page
       # background_image_path: /uploads/building.jpg
-      background_image_path: /uploads/1 copy.png
+      background_image_path: /uploads/livro.png
       # image: /uploads/building.jpg
       image: /uploads/5.png
   -
