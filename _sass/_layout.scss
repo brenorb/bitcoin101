@@ -21,7 +21,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: calc(50% - 40px) 175px;
 	/* height: 420px; */
-	height: 490px; // new
+	height: 640px; // new
 	box-sizing: border-box;
 	padding-bottom: 0px; // new
 	img { 
@@ -42,13 +42,13 @@ header {
 		background-size: contain;
 		background-position: calc(50% - 300px) calc(100% + 20px);
 		padding-bottom: 0px; // new
-		height: 579px; // new
+		height: 640px; // new
 		img { 
 			width: 274px; // new
 		}
 
 		&.main-hero {
-			height: 490px; // new
+			height: 579px; // new
 			// height: 80vh;
 			background-position: calc(50% - 350px) calc(100% + 20px);
 		}
