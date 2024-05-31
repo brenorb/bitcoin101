@@ -25,7 +25,7 @@ header {
 	box-sizing: border-box;
 	padding-bottom: 0px !important; // new
 	img { 
-		width: 395px; // new
+		width: 275px; // new
 		vertical-align: bottom; // new
 	}
 	
@@ -38,7 +38,7 @@ header {
 	.container-flex{
 		display: flex; // new
 		align-items: center; // new
-		gap: 1rem; // new
+		gap: 3rem; // new
 	}
 
 	@media (max-width: $mobile-break) { // from min to max
