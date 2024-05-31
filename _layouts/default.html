@@ -26,22 +26,25 @@
 
 	<body>
 		<!-- <header style="background-image: url('{% include relative-src.html src=page.background_image_path %}');" {% if page.large_header %}class="main-hero"{% endif %}> -->
-		<header style="background-image: url('{% include relative-src.html src=page.background_image_path %}'); padding-bottom: 400px;" {% if page.large_header %}class="main-hero"{% endif %}>
-			<div class="container">
-				<h1><a href="{{ site.baseurl }}/">{{ site.data.company.title }}</a></h1>
-				<nav>
-					<ul>
-						{% assign nav_pages = site.html_pages | where: 'show_in_navigation', true | sort: 'navigation_order' %}
-						{% for nav_page in nav_pages %}
-						{% if previous_page.path != nav_page.path %}
-						{% assign previous_page = nav_page %}
-						<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a></li>
-						{% endif %}
-						{% endfor %}
-						<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="{{ site.author.website }}">Autor</a></li> <!-- Adicionado -->
-						<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="https://bit.ly/101BTC">Compre</a></li> <!-- Adicionado -->
-					</ul>
-				</nav>
+		<header {% if page.large_header %}class="main-hero"{% endif %}>
+			<div class="container container-flex">
+				<div><img src="./uploads/livro.png"></img></div>
+				<div>
+					<h1><a href="{{ site.baseurl }}/">{{ site.data.company.title }}</a></h1>
+					<nav>
+						<ul>
+							{% assign nav_pages = site.html_pages | where: 'show_in_navigation', true | sort: 'navigation_order' %}
+							{% for nav_page in nav_pages %}
+							{% if previous_page.path != nav_page.path %}
+							{% assign previous_page = nav_page %}
+							<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a></li>
+							{% endif %}
+							{% endfor %}
+							<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="{{ site.author.website }}">Autor</a></li> <!-- Adicionado -->
+							<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="https://bit.ly/101BTC">Compre</a></li> <!-- Adicionado -->
+						</ul>
+					</nav>
+				</div>
 			</div>
 		</header>
 
