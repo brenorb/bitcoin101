@@ -1,6 +1,6 @@
 ---
 name: Breno Brito
-image: "/uploads/brenobrito.png"
+image: "/uploads/brenobrito.jpeg"
 credentials: <a href="https://brenorb.com">https://brenorb.com</a>
 ---
 
