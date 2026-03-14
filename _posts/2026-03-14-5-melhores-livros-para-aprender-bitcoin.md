@@ -13,7 +13,7 @@ description: "Lista direta com 5 livros para iniciantes em Bitcoin — do básic
 
 Para quem quer aprender **Bitcoin** com calma e com fundamento (sem depender de “dica rápida”), um bom livro continua sendo o caminho mais eficiente: dá contexto, organiza conceitos e ajuda a reduzir a chance de cair em narrativas ruins e golpes.
 
-A seguir, uma lista prática com **5 livros para começar**, em uma ordem que costuma funcionar bem para iniciantes.
+A seguir, uma lista prática com **5 livros para começar**, apresentada **do 5 ao 1** (o mais recomendado fica por último).
 
 ## Como escolher um bom livro de Bitcoin (sem perder tempo)
 
@@ -23,7 +23,35 @@ Três critérios simples ajudam a filtrar o que vale a leitura:
 - **Sem “promessa de preço”**: livro bom evita previsão e marketing disfarçado.
 - **Nível certo para iniciantes**: alguns livros são excelentes, mas técnicos demais para a primeira leitura.
 
-## Os 5 melhores livros para começar a aprender Bitcoin
+## Os 5 melhores livros para começar a aprender Bitcoin (do 5 ao 1)
+
+### 5) O Livro de Satoshi (Phil Champagne)
+
+Um compilado do que **Satoshi Nakamoto** escreveu (emails, posts e explicações). Não é o material mais didático para começar do zero, mas ajuda a colocar o Bitcoin em perspectiva e entender decisões de design.
+
+- Link: https://amzn.to/3E25veh
+
+### 4) O Padrão Bitcoin (Saifedean Ammous)
+
+Um dos livros mais conhecidos para entender Bitcoin como **tecnologia monetária**: história do dinheiro, custo de oportunidade, inflação e preferência temporal.
+
+Não costuma ser o melhor “primeiro livro” (é comum largar no meio), mas é um excelente próximo passo.
+
+- Link: https://amzn.to/4h5HwJO
+
+### 3) Inventando o Bitcoin (Yan Pritzker)
+
+Depois de entender o “por quê”, vale entender o “como” sem cair cedo demais no nível de programação.
+
+O livro explica **o problema que o Bitcoin resolve** e **como as peças se encaixam** (hash, prova de trabalho, blocos e rede) de forma bem didática.
+
+- Link: https://amzn.to/4h1myfe
+
+### 2) O Pequeno Livro do Bitcoin (vários autores)
+
+Leitura curta e objetiva, útil para criar **vocabulário** e **intuição** sobre por que Bitcoin importa (principalmente liberdade, dinheiro e incentivos).
+
+- Link: https://amzn.to/4hjeYNf
 
 ### 1) 101 Perguntas sobre Bitcoin (Breno Brito)
 
@@ -36,34 +64,6 @@ Por que costuma funcionar bem como **primeira leitura**:
 - cria base para leituras mais densas depois.
 
 - Link: https://bit.ly/101BTC
-
-### 2) O Pequeno Livro do Bitcoin (vários autores)
-
-Leitura curta e objetiva, útil para criar **vocabulário** e **intuição** sobre por que Bitcoin importa (principalmente liberdade, dinheiro e incentivos).
-
-- Link: https://amzn.to/4hjeYNf
-
-### 3) Inventando o Bitcoin (Yan Pritzker)
-
-Depois de entender o “por quê”, vale entender o “como” sem cair cedo demais no nível de programação.
-
-O livro explica **o problema que o Bitcoin resolve** e **como as peças se encaixam** (hash, prova de trabalho, blocos e rede) de forma bem didática.
-
-- Link: https://amzn.to/4h1myfe
-
-### 4) O Padrão Bitcoin (Saifedean Ammous)
-
-Um dos livros mais conhecidos para entender Bitcoin como **tecnologia monetária**: história do dinheiro, custo de oportunidade, inflação e preferência temporal.
-
-Não costuma ser o melhor “primeiro livro” (é comum largar no meio), mas é um excelente próximo passo.
-
-- Link: https://amzn.to/4h5HwJO
-
-### 5) O Livro de Satoshi (Phil Champagne)
-
-Um compilado do que **Satoshi Nakamoto** escreveu (emails, posts e explicações). Não é o material mais didático para começar do zero, mas ajuda a colocar o Bitcoin em perspectiva e entender decisões de design.
-
-- Link: https://amzn.to/3E25veh
 
 ## E quanto a livros técnicos (ex.: Mastering Bitcoin)?
 
