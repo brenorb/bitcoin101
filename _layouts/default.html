@@ -71,7 +71,8 @@
 					<picture>
 						{%- assign bg_avif = page.background_image_path | replace: '.png', '.avif' | replace: '.jpg', '.avif' | replace: '.jpeg', '.avif' -%}
 						<source srcset="{{ site.baseurl }}{{ bg_avif }}" type="image/avif">
-						<img class="site-header-image{% if page.large_header %} site-header-image-large{% endif %}" src="{{ site.baseurl }}{{ page.background_image_path }}" alt="{{ site.data.company.title | escape }}">
+						<source srcset="{{ site.baseurl }}{{ page.background_image_path }}">
+						<img class="site-header-image{% if page.large_header %} site-header-image-large{% endif %}" src="{{ site.baseurl }}{{ bg_avif }}" alt="{{ site.data.company.title | escape }}">
 					</picture>
 				</div>
 				<div>
