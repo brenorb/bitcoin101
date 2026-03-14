@@ -19,7 +19,7 @@
     #   social_icon: Facebook
     #   new_window: true
     - name: Twitter
-      link: http://twitter.com/brenorb
+      link: https://twitter.com/brenorb
       social_icon: Twitter
       new_window: true
     # - name: Instagram

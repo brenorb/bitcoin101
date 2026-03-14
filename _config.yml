@@ -2,7 +2,8 @@
 # Site
 
 title: 101 Perguntas sobre Bitcoin
-description: "Guia direto para aprender Bitcoin com perguntas e respostas: fundamentos, segurança e custódia."
+tagline: "Aprenda Bitcoin com fundamentos"
+description: "Aprenda Bitcoin com perguntas e respostas: fundamentos, segurança, custódia, carteiras e economia do Bitcoin — sem hype e sem promessas."
 url: "https://bitcoin101.site"
 baseurl:
 lang: pt_BR

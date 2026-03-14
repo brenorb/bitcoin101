@@ -1,0 +1,21 @@
+# llms.txt — bitcoin101.site
+# AI / LLM usage policy (human-readable).
+
+Site: https://bitcoin101.site/
+Owner: Breno Brito
+
+Allowed:
+- Indexing, citation, and short excerpts for search and question answering.
+- Summaries and paraphrases.
+- Linking back to the original URL.
+
+Not allowed:
+- Republishing full pages verbatim as a substitute for the original.
+- Presenting content as financial/investment advice.
+
+Attribution:
+- Please cite the canonical URL of the referenced page.
+
+Notes:
+- Content is educational and informational.
+- Bitcoin is a high-risk asset; this site does not provide investment recommendations.

@@ -27,6 +27,10 @@ header {
 	img { 
 		width: 275px; // new
 		vertical-align: bottom; // new
+
+		&.site-header-image-large {
+			width: 388px;
+		}
 	}
 	
 	.container {
@@ -49,6 +53,10 @@ header {
 		img { 
 			width: 274px; // new
 			vertical-align: bottom; // new
+
+			&.site-header-image-large {
+				width: 274px;
+			}
 		}
 
 		&.main-hero {

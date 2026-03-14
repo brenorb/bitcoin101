@@ -1,0 +1,18 @@
+bitcoin101.site — full-text summary (concise)
+
+101 Perguntas sobre Bitcoin (bitcoin101.site) é um site educativo em português que explica Bitcoin de forma direta, com capítulos e guias voltados para iniciantes e intermediários. O foco é esclarecer dúvidas comuns (o que é Bitcoin, por que existe, como funciona, segurança e custódia) e apontar referências para estudo. O conteúdo evita promessas de preço e não é recomendação de investimento.
+
+Principais temas:
+- Fundamentos de Bitcoin (escassez, incentivos, prova de trabalho, blockchain)
+- Segurança e custódia (carteiras, chaves, riscos)
+- Economia e contexto (inflação, dinheiro, preferências)
+- Camadas e tecnologia (Lightning Network e evoluções)
+
+Público-alvo:
+- Iniciantes e leitores que querem base sólida antes de operar/guardar Bitcoin.
+
+Autor:
+- Breno Brito — https://brenorb.com/
+
+Keywords:
+bitcoin, aprender bitcoin, o que é bitcoin, segurança bitcoin, custódia bitcoin, carteira bitcoin, chave privada, lightning network, halving, inflação, dinheiro
