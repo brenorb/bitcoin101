@@ -2,24 +2,34 @@
 # Site
 
 title: 101 Perguntas sobre Bitcoin
+description: Guia direto para aprender Bitcoin com perguntas e respostas: fundamentos, segurança e custódia.
 url: "https://bitcoin101.site"
 baseurl:
+lang: pt-BR
+locale: pt_BR
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: Aprenda Bitcoin de forma eficiente.
 author:
   name: Breno Brito
   email:
   twitter: brenorb # twitter username without the @ symbol
   website: https://brenorb.com/
+
+twitter:
+  username: brenorb
+  card: summary_large_image
+
 social:
-  name: Justice Template social config name links
+  name: Breno Brito
   links:
-    - https://github.com/CloudCannon/justice-jekyll-template
+    - https://bitcoin101.site
+    - https://brenorb.com/
+    - https://twitter.com/brenorb
+    - https://github.com/brenorb
 
 # -----
 # Build
