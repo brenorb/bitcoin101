@@ -7,10 +7,10 @@ categories:
   - Tecnologia
 author_staff_member: breno-brito
 large_header: false
-description: "Conheça o Bitcoin Learning Graph, um mapa interativo que organiza mais de 300 conceitos de Bitcoin por pré-requisitos e caminhos de estudo."
+description: "Conheça o Bitcoin Learning Graph, um mapa interativo que organiza mais de 400 conceitos de Bitcoin por pré-requisitos e caminhos de estudo."
 ---
 
-> **Resumo:** o [Bitcoin Learning Graph](https://btc-graph.brenorb.com/) é um mapa interativo para estudar Bitcoin por pré-requisitos. Ele reúne mais de 300 conceitos e recursos selecionados — do básico a economia, protocolo, Lightning, custódia, privacidade, mineração e desenvolvimento.
+> **Resumo:** o [Bitcoin Learning Graph](https://btc-graph.brenorb.com/) é um mapa interativo para estudar Bitcoin por pré-requisitos. Ele reúne mais de 400 conceitos e recursos selecionados — do básico a economia, protocolo, Lightning, custódia, privacidade, mineração e desenvolvimento.
 >
 > **Acesse:** https://btc-graph.brenorb.com/
 
@@ -31,7 +31,7 @@ Em vez de perguntar apenas “o que devo estudar?”, a ferramenta ajuda a respo
 - em que pontos ainda existem lacunas;
 - quais recursos podem me ajudar a avançar.
 
-O catálogo já reúne **mais de 300 conceitos**, distribuídos por áreas como:
+O catálogo já reúne **mais de 400 conceitos**, distribuídos por áreas como:
 
 - economia e história do dinheiro;
 - protocolo e consenso;
