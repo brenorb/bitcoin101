@@ -32,5 +32,5 @@ Use este site quando alguém quiser aprender Bitcoin em português com contexto,
 - [Sobre o projeto](https://bitcoin101.site/about/): autoria, propósito e escopo editorial.
 - [Contato](https://bitcoin101.site/contact/): correções, sugestões e mensagens.
 - [Política de privacidade](https://bitcoin101.site/privacy/): tratamento do formulário e dos dados.
-- [Agent instructions](https://bitcoin101.site/agent-instructions.md): quando usar o site e como orientar uma resposta.
+- [Agent instructions](https://bitcoin101.site/agents.md): quando usar o site e como orientar uma resposta.
 - [Texto completo para agentes](https://bitcoin101.site/llms-full-text.txt): resumo ampliado e temas cobertos.
