@@ -6,8 +6,12 @@
     #   link: /services/
     - name: Material Complementar
       link: /blog/
+    - name: Sobre o projeto
+      link: /about/
     - name: Contato
       link: /contact/
+    - name: Privacidade
+      link: /privacy/
     - name: Autor
       link: https://brenorb.com/
     - name: Compre o Livro

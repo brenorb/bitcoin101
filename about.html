@@ -1,5 +1,6 @@
 ---
-title: About
+title: Sobre o projeto
+description: Conheça o propósito do site 101 Perguntas sobre Bitcoin e o autor Breno Brito.
 call_to_action: Contact
 background_image_path:
 large_header: false
@@ -8,33 +9,15 @@ navigation_order: 1
 ---
 
 <div class="editable">
-	<p>
-		Serving your community for over a century, Justice Law is committed to helping people through a number of services.
-		Our services range from conveyancing, mortgages to family law. Our clients range from large businesses to first home buyers.
-	</p>
+	<p>O <strong>101 Perguntas sobre Bitcoin</strong> é um projeto editorial para explicar Bitcoin em português com clareza, contexto e responsabilidade. O site reúne a apresentação do livro, capítulos abertos, referências de estudo e materiais complementares para quem quer construir uma base antes de comprar, usar ou guardar bitcoin.</p>
 
-	<p>Meet the members of our capable team:</p>
+	<p>O conteúdo é voltado principalmente para iniciantes e leitores intermediários. As respostas tratam de fundamentos monetários, escassez, incentivos, funcionamento da rede, carteiras, custódia, segurança, Lightning Network e economia. O objetivo é organizar as perguntas certas e indicar caminhos de estudo — não oferecer recomendação de investimento ou promessa de retorno.</p>
+
+	<p>O livro foi escrito por Breno Brito, engenheiro que trabalha na interseção entre Bitcoin, inteligência artificial e finanças. Breno também participou da tradução de livros de Bitcoin para o português e da criação da lista de palavras em português do BIP39. As opiniões e textos publicados refletem o escopo educacional do projeto e devem ser conferidos em fontes atualizadas quando envolverem software, segurança ou legislação.</p>
 </div>
 
-<p class="editor-link"><a href="cloudcannon:collections/_staff_members" class="btn"><strong>&#9998;</strong> Update Staff Members</a></p>
-
-<ul class="staff-list">
-	{% for member in site.staff_members %}
-		<li class="staff">
-			<div class="staff-details">
-				<div class="staff-image">
-					<img src="{{ member.image }}" alt="Staff photo for {{ member.name }}" width="120" height="120">
-				</div>
-				<ul class="staff-info">
-					<li>{{ member.name }}</li>
-					<li><small>{{ member.credentials }}</small></li>
-					<li><a href="tel:{{ site.data.company.phone }}">{{ site.data.company.phone }}</a>  ext {{ member.phone_extension }}</li>
-				</ul>
-			</div>
-
-			<div class="staff-bio">
-				<p>{{ member.content | markdownify }}</p>
-			</div>
-		</li>
-	{% endfor %}
-</ul>
+<h2>Sobre Breno Brito</h2>
+{% assign author = site.staff_members | where: "name", "Breno Brito" | first %}
+<div class="post-author staff">
+	{% include staff-member.html member=author %}
+</div>

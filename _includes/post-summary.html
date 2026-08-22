@@ -1,7 +1,7 @@
 <li class="post-summary">
 	{% if include.post.image %}
 		<div class="post-summary-image">
-			<img src="{% include relative-src.html src=include.post.image %}" alt="Photo of {{ include.post.title }}">
+			<img src="{% include relative-src.html src=include.post.image %}" alt="Imagem de {{ include.post.title }}" loading="lazy" decoding="async">
 		</div>
 	{% endif %}
 

@@ -6,7 +6,7 @@ tagline: "Aprenda Bitcoin sem hype"
 description: "Aprenda Bitcoin com perguntas e respostas: fundamentos, segurança, custódia, carteiras e economia do Bitcoin — sem hype e sem promessas."
 url: "https://bitcoin101.site"
 baseurl:
-lang: pt_BR
+lang: pt-BR
 locale: pt_BR
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -96,6 +96,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+  - template
 
 # -----------
 # CloudCannon

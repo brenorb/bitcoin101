@@ -26,22 +26,63 @@
 		<script type="application/ld+json">
 		{
 		  "@context": "https://schema.org",
-		  "@type": "Person",
-		  "name": "Breno Brito",
-		  "url": "https://brenorb.com/",
-		  "sameAs": [
-		    "https://bitcoin101.site/",
-		    "https://twitter.com/brenorb",
-		    "https://www.linkedin.com/in/brenorb/",
-		    "https://github.com/brenorb"
-		  ],
-		  "knowsAbout": [
-		    "Bitcoin",
-		    "Lightning Network",
-		    "Segurança",
-		    "Custódia",
-		    "Carteiras",
-		    "Economia"
+		  "@graph": [
+		    {
+		      "@type": "Organization",
+		      "@id": "https://bitcoin101.site/#organization",
+		      "name": "101 Perguntas sobre Bitcoin",
+		      "url": "https://bitcoin101.site/",
+		      "logo": "https://bitcoin101.site/siteicon.png",
+		      "description": "Guia em português para aprender Bitcoin com clareza, fundamentos e segurança.",
+		      "contactPoint": {
+		        "@type": "ContactPoint",
+		        "contactType": "customer support",
+		        "email": {{ site.data.company.contact_email_address | jsonify }},
+		        "availableLanguage": "pt-BR"
+		      },
+		      "address": {
+		        "@type": "PostalAddress",
+		        "addressCountry": "BR"
+		      },
+		      "sameAs": [
+		        "https://brenorb.com/",
+		        "https://twitter.com/brenorb",
+		        "https://www.linkedin.com/in/brenorb/",
+		        "https://github.com/brenorb"
+		      ]
+		    },
+		    {
+		      "@type": "Person",
+		      "@id": "https://brenorb.com/#person",
+		      "name": "Breno Brito",
+		      "url": "https://brenorb.com/",
+		      "jobTitle": "Autor e engenheiro",
+		      "worksFor": { "@id": "https://bitcoin101.site/#organization" },
+		      "sameAs": [
+		        "https://bitcoin101.site/",
+		        "https://twitter.com/brenorb",
+		        "https://www.linkedin.com/in/brenorb/",
+		        "https://github.com/brenorb"
+		      ],
+		      "knowsAbout": [
+		        "Bitcoin",
+		        "Lightning Network",
+		        "Segurança",
+		        "Custódia",
+		        "Carteiras",
+		        "Economia"
+		      ]
+		    },
+		    {
+		      "@type": "Book",
+		      "name": "101 Perguntas sobre Bitcoin",
+		      "url": "https://bit.ly/101BTC",
+		      "image": "https://bitcoin101.site/uploads/livro.avif",
+		      "description": "Guia estruturado em perguntas e respostas para entender Bitcoin sem hype e sem promessas.",
+		      "inLanguage": "pt-BR",
+		      "author": { "@id": "https://brenorb.com/#person" },
+		      "publisher": { "@id": "https://bitcoin101.site/#organization" }
+		    }
 		  ]
 		}
 		</script>
@@ -63,6 +104,7 @@
 	</head>
 
 	<body>
+		<a class="skip-link" href="#main-content">Pular para o conteúdo</a>
 		<!-- <header style="background-image: url('{% include relative-src.html src=page.background_image_path %}');" {% if page.large_header %}class="main-hero"{% endif %}> -->
 		<header {% if page.large_header %}class="main-hero"{% endif %}>
 			<div class="container container-flex">
@@ -76,46 +118,44 @@
 					</picture>
 				</div>
 				<div>
-					<h1><a href="{{ site.baseurl }}/">{{ site.data.company.title }}</a></h1>
-					<nav>
+					<a class="site-title" href="{{ site.baseurl }}/">{{ site.data.company.title }}</a>
+					<nav aria-label="Navegação principal">
 						<ul>
 							{% assign nav_pages = site.html_pages | where: 'show_in_navigation', true | sort: 'navigation_order' %}
 							{% for nav_page in nav_pages %}
 							{% if previous_page.path != nav_page.path %}
 							{% assign previous_page = nav_page %}
-							<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a></li>
+							<li><a {% if nav_page.url == page.url %}class="active" aria-current="page"{% endif %} href="{{ site.baseurl }}{{ nav_page.url }}">{{ nav_page.title }}</a></li>
 							{% endif %}
 							{% endfor %}
-							<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="{{ site.author.website }}">Autor</a></li> <!-- Adicionado -->
-							<li><a {% if nav_page.url == page.url %}class="active"{% endif %} href="https://bit.ly/101BTC">Compre</a></li> <!-- Adicionado -->
+							<li><a href="{{ site.author.website }}">Autor</a></li>
+							<li><a href="https://bit.ly/101BTC">Compre</a></li>
 						</ul>
 					</nav>
 				</div>
 			</div>
 		</header>
 
-		<section class="main">
+		<main id="main-content" class="main">
 			<div class="container">
 				{{ content }}
 			</div>
-		</section>
+		</main>
 
 		{% if page.call_to_action == 'Map' and site.google_maps_javascript_api_key %}
 			<section class="map-section">
 				<div id="map"></div>
 			</section>
 		{% elsif page.call_to_action == 'Contact' %}
-			<section class="quote-section">
+			<section class="quote-section" aria-label="Comprar o livro">
 				<p class="container editable">
-					<!-- <a href="{{ site.baseurl }}/contact/">Contact us</a> today to find out how we can help you. Your first consultation is free. -->
 					<a href="https://bit.ly/101BTC">Compre</a> o livro e adquira uma compreensão sólida e objetiva sobre o universo do Bitcoin, desmistificando o tema com respostas diretas e acessíveis.
-					<button class="btn" onclick="window.location.href='https://www.bit.ly/101BTC';">Compre aqui</button>
+					<a class="btn" href="https://bit.ly/101BTC">Compre aqui</a>
 				</p>
 			</section>
 		{% else %}
-			<section class="quote-section">
+			<section class="quote-section" aria-label="Comprar o livro">
 				<p class="container editable">
-					<!-- <a href="{{ site.baseurl }}/blog/">Read our blog</a> for an introduction and quick tips on various areas of the law. -->
 					<a href="https://bit.ly/101BTC">Compre</a> o livro e adquira uma compreensão sólida e objetiva sobre o universo do Bitcoin, desmistificando o tema com respostas diretas e acessíveis.
 				</p>
 			</section>
@@ -123,8 +163,6 @@
 
 		<footer>
 			<div class="container">
-				<p class="editor-link"><a href="cloudcannon:collections/_data/footer.yml" class="btn"><strong>&#9998;</strong> Update Footer Sections</a></p>
-
 				<div class="footer-columns">
 					{% for column in site.data.footer %}
 						<ul class="footer-links">

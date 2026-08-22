@@ -12,23 +12,21 @@ map:
 ---
 
 <p class="editable">
-	Caso tenha encontrado algum erro em sua edição e queira prover feedback, dar sugestões ou só entrar em contato, use o formulário abaixo ou me contate nas redes sociais.
+Caso tenha encontrado algum erro nesta edição, queira sugerir uma pauta ou conversar sobre Bitcoin, use o formulário abaixo. Também é possível acompanhar o trabalho do autor pelas redes sociais.
 </p>
 
 <div class="columns">
 	<div class="column">
-		<p class="editor-link"><a href="cloudcannon:collections/_data/company.yml" class="btn"><strong>&#9998;</strong> Update Company Details</a></p>
+		<label for="linkedin">LinkedIn</label>
+		<p id="linkedin" class="contact-info"><a href="https://www.linkedin.com/in/{{ site.data.company.linkedin }}">@{{ site.data.company.linkedin }}</a></p>
 
-		<label>Linkedin</label>
-		<p class="contact-info"><a href="https://www.linkedin.com/in/{{ site.data.company.linkedin }}">@{{ site.data.company.linkedin }}</a></p>
-
-		<label>Twitter</label>
-		<p class="contact-info"><a href="https://www.twitter.com/{{ site.data.company.twitter }}">@{{ site.data.company.twitter }}</a></p>
+		<label for="twitter">Twitter</label>
+		<p id="twitter" class="contact-info"><a href="https://www.twitter.com/{{ site.data.company.twitter }}">@{{ site.data.company.twitter }}</a></p>
 
 		<!-- <label>Doe bitcoin onchain</label> -->
 		<!-- <address class="contact-info">{{ site.data.company.postal_address | replace: ',', '<br>' }}</address> -->
-		<label>Doe bitcoin offchain</label>
-		<img src="{{ site.baseurl }}/uploads/LN.png" style="max-width: 53% !important;">
+		<label for="lightning-donation">Doe bitcoin pela Lightning Network</label>
+		<img id="lightning-donation" src="{{ site.baseurl }}/uploads/LN.png" alt="QR code para doação em bitcoin pela Lightning Network" width="1068" height="1201" loading="lazy" decoding="async">
 		<!-- <address class="contact-info">{{ site.data.company.address | replace: ',', '<br>' }}</address> -->
 	</div>
 
@@ -36,13 +34,13 @@ map:
 		<!-- <form method="post" action="/contact-success/"> -->
 		<form method="post" action="https://formspree.io/f/mzbnldqd">
 			<label for="email_address">Email</label>
-			<input id="email_address" type="text" name="email">
+			<input id="email_address" type="email" name="email" autocomplete="email" required>
 
 			<label for="name">Nome</label>
-			<input id="name" type="text" name="name">
+			<input id="name" type="text" name="name" autocomplete="name" required>
 
 			<label for="message">Mensagem</label>
-			<textarea id="message" name="message"></textarea>
+			<textarea id="message" name="message" required></textarea>
 
 			<input type="hidden" name="_to" value="{{ site.data.company.contact_email_address }}">
 			<input type="text" name="_gotcha" style="display: none;">
