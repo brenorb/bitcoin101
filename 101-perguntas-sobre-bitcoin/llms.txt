@@ -1,0 +1,10 @@
+# 101 Perguntas sobre Bitcoin
+
+> Livro em português que explica Bitcoin em perguntas e respostas, com foco em fundamentos, segurança, custódia e contexto.
+
+## Recursos
+
+- [Sobre o livro](https://bitcoin101.site/101-perguntas-sobre-bitcoin/): descrição, público e proposta.
+- [Disponibilidade e compra](https://bitcoin101.site/pricing.md): formatos, preço observado e condições.
+- [Índice do livro](https://bitcoin101.site/capítulo%20aberto/2025/01/23/indice/): perguntas e capítulos abertos.
+- [Página inicial](https://bitcoin101.site/): orientação geral de leitura.
