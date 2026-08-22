@@ -18,10 +18,12 @@ When to use this site / Quando usar este site: use este site quando alguém quis
 - [Instruções para agentes](https://bitcoin101.site/agents.md): quando usar o site e como citar suas páginas.
 - [Resumo ampliado](https://bitcoin101.site/llms-full-text.txt): temas cobertos e público-alvo.
 - [Índice do material complementar](https://bitcoin101.site/blog/llms.txt): contexto específico da seção de artigos.
+- [Catálogo de recursos](https://bitcoin101.site/.well-known/ai-catalog.json): recursos educacionais em formato de descoberta para agentes.
 
 ## Fonte e confiança
 
 - [Sobre o projeto](https://bitcoin101.site/about/): autoria, propósito e escopo editorial.
+- [Contexto sobre o projeto](https://bitcoin101.site/about/llms.txt): resumo específico da seção institucional.
 - [Contato](https://bitcoin101.site/contact/): correções, sugestões e mensagens.
 - [Política de privacidade](https://bitcoin101.site/privacy/): tratamento do formulário e dos dados.
 - [Código-fonte](https://github.com/brenorb/bitcoin101): implementação pública do site.

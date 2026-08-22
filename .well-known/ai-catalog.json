@@ -1,0 +1,34 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "bitcoin101.site",
+    "identifier": "did:web:bitcoin101.site"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:bitcoin101.site:knowledge:bitcoin-learning",
+      "displayName": "Recursos para aprender Bitcoin",
+      "type": "text/markdown",
+      "url": "https://bitcoin101.site/index.md",
+      "description": "Conteúdo educacional em português sobre fundamentos, segurança, custódia e caminhos de estudo de Bitcoin.",
+      "capabilities": ["KnowledgeResource", "Markdown"],
+      "representativeQueries": [
+        "o que é Bitcoin",
+        "como estudar Bitcoin com segurança",
+        "como funcionam custódia e carteiras de Bitcoin"
+      ]
+    },
+    {
+      "identifier": "urn:air:bitcoin101.site:guidance:agent-instructions",
+      "displayName": "Instruções para agentes",
+      "type": "text/markdown",
+      "url": "https://bitcoin101.site/agents.md",
+      "description": "Orientação sobre quando usar bitcoin101.site e como citar seu conteúdo.",
+      "capabilities": ["AgentGuidance", "Markdown"],
+      "representativeQueries": [
+        "quando usar bitcoin101.site",
+        "qual é o escopo do conteúdo de bitcoin101.site"
+      ]
+    }
+  ]
+}

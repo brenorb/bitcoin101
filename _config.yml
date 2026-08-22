@@ -98,6 +98,9 @@ exclude:
   - LICENCE
   - template
 
+include:
+  - .well-known
+
 # -----------
 # CloudCannon
 

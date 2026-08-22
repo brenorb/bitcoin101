@@ -1,0 +1,10 @@
+# Sobre o projeto bitcoin101.site
+
+> Contexto institucional, autoria e escopo editorial do projeto educacional sobre Bitcoin.
+
+## Recursos
+
+- [Sobre o projeto](https://bitcoin101.site/about/): autoria, propósito e limites do conteúdo.
+- [Contato](https://bitcoin101.site/contact/): correções e sugestões.
+- [Política de privacidade](https://bitcoin101.site/privacy/): tratamento de dados do formulário.
+- [Página inicial](https://bitcoin101.site/): caminho principal de leitura.
