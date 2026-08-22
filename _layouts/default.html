@@ -101,7 +101,38 @@
 		        "@type": "SpeakableSpecification",
 		        "cssSelector": ["h1", ".lead"]
 		      }
+		    }{% if page.url == '/' %},
+		    {
+		      "@type": "FAQPage",
+		      "@id": "https://bitcoin101.site/#faq",
+		      "mainEntity": [
+		        {
+		          "@type": "Question",
+		          "name": "Para quem é este site?",
+		          "acceptedAnswer": {
+		            "@type": "Answer",
+		            "text": "Para iniciantes e leitores intermediários que querem aprender Bitcoin em português com contexto, fundamentos e referências."
+		          }
+		        },
+		        {
+		          "@type": "Question",
+		          "name": "Este site oferece recomendação de investimento?",
+		          "acceptedAnswer": {
+		            "@type": "Answer",
+		            "text": "Não. O conteúdo é educacional e não substitui orientação personalizada ou atualizada sobre investimentos, segurança, software, impostos ou legislação."
+		          }
+		        },
+		        {
+		          "@type": "Question",
+		          "name": "Por onde começar?",
+		          "acceptedAnswer": {
+		            "@type": "Answer",
+		            "text": "Comece pela homepage, consulte o material complementar e use o índice do livro para escolher uma pergunta ou capítulo."
+		          }
+		        }
+		      ]
 		    }
+			{% endif %}
 		  ]
 		}
 		</script>
