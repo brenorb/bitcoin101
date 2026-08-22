@@ -1,0 +1,3 @@
+# bitcoin101.site
+
+Preserve the Jekyll architecture and existing Gemfile/plugins. Validate changes with `git diff --check` and `bundle exec jekyll build --trace`. Keep Bitcoin content educational, factual, and free of personalized investment advice. Never add credentials, private keys, seed phrases, or personal data.
