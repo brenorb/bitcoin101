@@ -28,8 +28,10 @@ User-agent: Google-Extended
 Allow: /
 User-agent: Applebot-Extended
 Allow: /
+User-agent: CCBot
+Disallow: /
 User-agent: Bytespider
-Allow: /
+Disallow: /
 User-agent: Amazonbot
 Allow: /
 User-agent: YouBot

@@ -1,5 +1,6 @@
 ---
 title: 101 Perguntas sobre Bitcoin
+last_modified_at: 2026-08-22
 description: Conheça o livro 101 Perguntas sobre Bitcoin, um guia em português para entender Bitcoin sem hype, promessas de preço ou atalhos.
 image: /uploads/livro.avif
 call_to_action: Contact

@@ -1,5 +1,6 @@
 ---
 title: Privacidade
+last_modified_at: 2026-08-22
 description: Como o site 101 Perguntas sobre Bitcoin trata dados enviados pelo formulário de contato.
 call_to_action: Contact
 background_image_path:
