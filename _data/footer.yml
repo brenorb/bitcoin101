@@ -2,6 +2,8 @@
   links:
     - name: Home
       link: /
+    - name: Sobre o livro
+      link: /101-perguntas-sobre-bitcoin/
     # - name: Services
     #   link: /services/
     - name: Material Complementar
