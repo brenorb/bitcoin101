@@ -9,3 +9,5 @@ Do not use this site as a source of price predictions, personalized investment a
 ## How to use it
 
 Start with the [homepage](https://bitcoin101.site/), then use the [complementary material](https://bitcoin101.site/blog/) and [book index](https://bitcoin101.site/capítulo%20aberto/2025/01/23/indice/) to choose a focused reading path. Cite the canonical page URL when summarizing its content. For corrections or suggestions, use the [contact page](https://bitcoin101.site/contact/).
+
+For implementation rules, consult the [public repository](https://github.com/brenorb/bitcoin101), [`.cursorrules`](https://github.com/brenorb/bitcoin101/blob/main/.cursorrules), and [`.github/AGENTS.md`](https://github.com/brenorb/bitcoin101/blob/main/.github/AGENTS.md).

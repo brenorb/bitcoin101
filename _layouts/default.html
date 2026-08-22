@@ -90,6 +90,18 @@
 		      "publisher": { "@id": "https://bitcoin101.site/#organization" }
 		    },
 		    {
+		      "@type": "Service",
+		      "@id": "https://bitcoin101.site/#learning-service",
+		      "name": "Educação sobre Bitcoin em português",
+		      "serviceType": "Conteúdo educacional e referências sobre Bitcoin",
+		      "description": "Material público para iniciantes e leitores intermediários estudarem Bitcoin com contexto, fundamentos e segurança.",
+		      "provider": { "@id": "https://bitcoin101.site/#organization" },
+		      "audience": {
+		        "@type": "Audience",
+		        "audienceType": "Iniciantes e leitores intermediários"
+		      }
+		    },
+		    {
 		      "@type": "WebPage",
 		      "@id": {{ page.url | absolute_url | append: '#webpage' | jsonify }},
 		      "url": {{ page.url | absolute_url | jsonify }},
