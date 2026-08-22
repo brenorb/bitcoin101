@@ -11,5 +11,7 @@ O conteúdo apresenta o livro **101 Perguntas sobre Bitcoin**, capítulos aberto
 - [Material complementar](https://bitcoin101.site/blog/)
 - [Sobre o projeto](https://bitcoin101.site/about/)
 - [Sobre o livro](https://bitcoin101.site/101-perguntas-sobre-bitcoin/)
+- [Disponibilidade e compra](https://bitcoin101.site/pricing.md)
 - [Instruções para agentes](https://bitcoin101.site/agents.md)
+- [Código-fonte e regras para agentes](https://github.com/brenorb/bitcoin101)
 - [Mapa do site](https://bitcoin101.site/sitemap.xml)

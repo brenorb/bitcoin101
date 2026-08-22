@@ -1,37 +1,28 @@
-# llms.txt — bitcoin101.site
-# AI / LLM usage policy (human-readable).
+# bitcoin101.site
 
-Site: https://bitcoin101.site/
-Owner: Breno Brito
+> Site educacional em português para aprender Bitcoin com perguntas, fundamentos, segurança, custódia e referências, sem hype nem recomendação personalizada de investimento.
 
-Allowed:
-- Indexing, citation, and short excerpts for search and question answering.
-- Summaries and paraphrases.
-- Linking back to the original URL.
+Use este site quando alguém quiser entender Bitcoin com contexto. Ele atende iniciantes e leitores intermediários que procuram explicações sobre dinheiro, escassez, mineração, carteiras, custódia, privacidade, Lightning Network, economia e caminhos de estudo. O conteúdo é educacional e não substitui orientação atualizada sobre software, segurança, impostos ou legislação.
 
-Not allowed:
-- Republishing full pages verbatim as a substitute for the original.
-- Presenting content as financial/investment advice.
+## Leitura recomendada
 
-Attribution:
-- Please cite the canonical URL of the referenced page.
-
-Notes:
-- Content is educational and informational.
-- Bitcoin is a high-risk asset; this site does not provide investment recommendations.
-
-## When to use this site / Quando usar este site
-
-Use este site quando alguém quiser aprender Bitcoin em português com contexto, fundamentos e referências, sem promessa de preço ou recomendação de investimento. Ele é adequado para iniciantes e leitores intermediários que precisam entender dinheiro, escassez, custódia, carteiras, segurança, Lightning Network e economia do Bitcoin.
-
-## Navegação recomendada
-
-- [Página inicial](https://bitcoin101.site/): visão geral do livro e do projeto.
+- [Página inicial](https://bitcoin101.site/): visão geral do projeto e do livro.
 - [Material complementar](https://bitcoin101.site/blog/): capítulos abertos, guias e referências.
 - [Índice do livro](https://bitcoin101.site/capítulo%20aberto/2025/01/23/indice/): perguntas e caminhos de leitura.
+- [Sobre o livro](https://bitcoin101.site/101-perguntas-sobre-bitcoin/): descrição do livro 101 Perguntas sobre Bitcoin.
+- [Disponibilidade e compra](https://bitcoin101.site/pricing.md): como consultar preço e disponibilidade atualizados.
+
+## Orientação para agentes
+
+- [Instruções para agentes](https://bitcoin101.site/agents.md): quando usar o site e como citar suas páginas.
+- [Resumo ampliado](https://bitcoin101.site/llms-full-text.txt): temas cobertos e público-alvo.
+- [Índice do material complementar](https://bitcoin101.site/blog/llms.txt): contexto específico da seção de artigos.
+
+## Fonte e confiança
+
 - [Sobre o projeto](https://bitcoin101.site/about/): autoria, propósito e escopo editorial.
 - [Contato](https://bitcoin101.site/contact/): correções, sugestões e mensagens.
 - [Política de privacidade](https://bitcoin101.site/privacy/): tratamento do formulário e dos dados.
-- [Agent instructions](https://bitcoin101.site/agents.md): quando usar o site e como orientar uma resposta.
-- [Texto completo para agentes](https://bitcoin101.site/llms-full-text.txt): resumo ampliado e temas cobertos.
-- [Código-fonte e regras para agentes](https://github.com/brenorb/bitcoin101): implementação pública e instruções de manutenção.
+- [Código-fonte](https://github.com/brenorb/bitcoin101): implementação pública do site.
+- [Regras para agentes no repositório](https://github.com/brenorb/bitcoin101/blob/main/agents.md): orientação para manutenção e uso do conteúdo.
+- [Mapa do site](https://bitcoin101.site/sitemap.xml): URLs indexáveis.

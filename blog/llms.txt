@@ -1,0 +1,11 @@
+# Material complementar do bitcoin101.site
+
+> Capítulos abertos, guias e referências para estudar Bitcoin em português.
+
+Esta seção complementa o livro 101 Perguntas sobre Bitcoin. Use-a para aprofundar fundamentos, tecnologia, segurança, economia e caminhos de estudo; confirme assuntos que mudam com o tempo em fontes atuais.
+
+## Conteúdo
+
+- [Material complementar](https://bitcoin101.site/blog/): índice dos artigos publicados.
+- [Índice do livro](https://bitcoin101.site/capítulo%20aberto/2025/01/23/indice/): perguntas e capítulos abertos.
+- [Página inicial](https://bitcoin101.site/): orientação geral de leitura.

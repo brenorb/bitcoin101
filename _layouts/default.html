@@ -16,6 +16,10 @@
 		{%- if page.image -%}
 		<meta name="twitter:image" content="{{ page.image | absolute_url }}">
 		{%- endif -%}
+		<link rel="describedby" href="{{ '/llms.txt' | absolute_url }}">
+		{%- if page.url == '/' -%}
+		<link rel="alternate" type="text/markdown" href="{{ '/index.md' | absolute_url }}">
+		{%- endif -%}
 
 		<meta name="keywords" content="Bitcoin, aprender Bitcoin, segurança, custódia, carteira, Lightning Network, halving, inflação, dinheiro">
 		<meta name="ai-topic" content="Bitcoin">
@@ -73,8 +77,9 @@
 		        "Economia"
 		      ]
 		    },
-		    {
+			{
 		      "@type": "Book",
+		      "@id": "https://bitcoin101.site/#book",
 		      "name": "101 Perguntas sobre Bitcoin",
 		      "url": "https://bit.ly/101BTC",
 		      "image": "https://bitcoin101.site/uploads/livro.avif",
@@ -82,6 +87,19 @@
 		      "inLanguage": "pt-BR",
 		      "author": { "@id": "https://brenorb.com/#person" },
 		      "publisher": { "@id": "https://bitcoin101.site/#organization" }
+		    },
+		    {
+		      "@type": "WebPage",
+		      "@id": {{ page.url | absolute_url | append: '#webpage' | jsonify }},
+		      "url": {{ page.url | absolute_url | jsonify }},
+		      "name": {{ meta_title | jsonify }},
+		      "description": {{ meta_description | jsonify }},
+		      "inLanguage": {{ site.lang | jsonify }},
+		      "about": { "@id": "https://bitcoin101.site/#book" },
+		      "speakable": {
+		        "@type": "SpeakableSpecification",
+		        "cssSelector": ["h1", ".lead"]
+		      }
 		    }
 		  ]
 		}
