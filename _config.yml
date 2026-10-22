@@ -9,6 +9,8 @@ baseurl:
 lang: pt-BR
 locale: pt_BR
 google_analytics_key:
+webmaster_verifications:
+  google: 5HTCLFz4nGAbNjytdOEmF3Yb18PfhutYBswHI9FA-nc
 google_maps_javascript_api_key:
 disqus_shortname:
 
