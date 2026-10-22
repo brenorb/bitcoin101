@@ -1,4 +1,7 @@
 ---
+description: "Por que Bitcoin foi criado: pagamentos sem intermediário obrigatório, regras verificáveis e a perspectiva monetária do autor."
+last_modified_at: 2026-10-22
+permalink: /capítulo%20aberto/direitos%20humanos/2023/12/26/por-que-precisamos-do-bitcoin/
 title: Capítulo 1 - Por que precisamos do Bitcoin?
 date: 2023-12-27 00:00:00
 categories:
@@ -8,6 +11,10 @@ author_staff_member: breno-brito
 image: "/uploads/need-bitcoin.webp"
 large_header: false
 ---
+
+**Bitcoin propõe pagamentos eletrônicos entre pessoas sem um intermediário financeiro obrigatório, com regras verificáveis pelos participantes.** Essa é a motivação técnica apresentada na [introdução do whitepaper de Satoshi Nakamoto](https://bitcoin.org/bitcoin.pdf). Neste capítulo, Breno Brito apresenta sua interpretação sobre por que essas propriedades importam para dinheiro, propriedade e liberdade. Para uma definição curta e referências técnicas, veja [o que é Bitcoin](/aprender-bitcoin/#o-que-e-bitcoin).
+
+O texto a seguir reproduz a perspectiva do capítulo original, publicado em 2023. Exemplos históricos e opiniões econômicas devem ser lidos nesse contexto.
 
 O dinheiro, as leis e o idioma são três importantes instituições criadas pela ordem espontânea, como nos conta o filósofo e economista F.A. Hayek. Não existe uma pessoa a quem se possa atribuir a invenção do dinheiro. Aliás, sem pelo menos duas pessoas, o dinheiro não faria sentido.
 

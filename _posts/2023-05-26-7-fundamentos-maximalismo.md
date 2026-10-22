@@ -1,4 +1,6 @@
 ---
+description: "Os sete fundamentos do maximalismo do Bitcoin na perspectiva de Breno Brito: moeda, resiliência, perenidade, ética e descentralização."
+permalink: /capítulo%20estendido/filosofia/2023/05/25/7-fundamentos-maximalismo/
 title: Os 7 fundamentos do maximalismo do bitcoin
 date: 2023-05-26 00:00:00
 categories:
@@ -28,7 +30,7 @@ E, por fim:
 
 [^sound]: Do inglês "sound money", muitas vezes traduzido como moeda forte, saudável ou sadia. "Moeda sonante" é uma tradução também comum, apesar de antiga, devido ao fato da moeda antiga metálica emitir um som mais limpo e bonito quando a liga metálica era mais pura, sendo seu som uma maneira simples de verificar o quanto do metal tinha sido diluído. Uma moeda que emitia um som dissonante ou "sujo", então, tinha sido claramente adulterada.
 
-### 1º) O caso de uso mais importante
+### 1º) O caso de uso mais importante {#primeiro-caso-de-uso}
 
 Não é de hoje que se repete "Blockchain, not Bitcoin", muitas vezes numa tentativa de esvaziar a importância da criação máxima do Satoshi Nakamoto, como se o bitcoin tivesse sido apenas uma prova de conceito das maravilhas que a blockchain poderia realizar. Não se enganem: tudo que a blockchain pode realizar de especial, ela só pode por causa do token que a faz funcionar. É o bitcoin que viabilizou a blockchain, não o contrário. Sem o valor monetário do bitcoin para rodar esse intricado jogo de incentivos que permite a descentralização, a blockchain não passa de um sistema de versionamento [Git](https://stackoverflow.com/questions/46192377/why-is-git-not-considered-a-block-chain) (sim, o que se usa no [GitHub](https://github.com/)).
 
@@ -83,7 +85,7 @@ Ou seja, vamos convergir para uma rede monetária. Criar outras redes monetária
 
 ## 6º) Resultado prático da descentralização
 
-Com a popularização e valorização do bitcoin, a descentralização, sendo o principal valor agregado da blockchain como dito [acima](#1º-O-caso-de-uso-mais-importante), virou rapidamente uma das principais expressões da moda de quem estava trabalhando em uma nova altcoin. Assim como bastava colocar "*blockchain*" no nome da empresa para suas [ações dispararem](https://www.bloomberg.com/news/articles/2017-10-27/what-s-in-a-name-u-k-stock-surges-394-on-blockchain-rebrand), todos estavam em busca da descentralização do que fosse possível, independentemente se fazia sentido ou não, todos queriam que suas ações/ativos/moedas disparassem. Pouco importava que o "produto descentralizado" fosse produzido, vendido e gerido por uma empresa bem centralizada, o importante era a hype.
+Com a popularização e valorização do bitcoin, a descentralização, sendo o principal valor agregado da blockchain como dito [acima](#primeiro-caso-de-uso), virou rapidamente uma das principais expressões da moda de quem estava trabalhando em uma nova altcoin. Assim como bastava colocar "*blockchain*" no nome da empresa para suas [ações dispararem](https://www.bloomberg.com/news/articles/2017-10-27/what-s-in-a-name-u-k-stock-surges-394-on-blockchain-rebrand), todos estavam em busca da descentralização do que fosse possível, independentemente se fazia sentido ou não, todos queriam que suas ações/ativos/moedas disparassem. Pouco importava que o "produto descentralizado" fosse produzido, vendido e gerido por uma empresa bem centralizada, o importante era a hype.
 
 Da mesma forma, hoje existem diversas DAOs (Organizações Descentralizadas Autônomas) que não são descentralizadas ou que a descentralização não lhes acrescenta nenhum valor além de brilharem os olhos de investidores incautos. Não faltam exemplos de altcoins que [se dizem descentralizadas](https://docs.bnbchain.org/docs/overview), mas que na prática [são controladas por poucas mãos](https://fortune.com/crypto/2022/10/06/binance-smart-chain-halts-after-exploit/).
 
