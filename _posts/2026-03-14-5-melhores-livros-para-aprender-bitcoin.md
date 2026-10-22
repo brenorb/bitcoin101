@@ -1,4 +1,5 @@
 ---
+permalink: /guia/iniciantes/livros/2026/03/13/5-melhores-livros-para-aprender-bitcoin/
 title: "Os 5 melhores livros para começar a aprender Bitcoin"
 date: 2026-03-14 00:00:00
 categories:
@@ -10,6 +11,8 @@ image: "/uploads/livro.png"
 large_header: false
 description: "Lista direta com 5 livros para iniciantes em Bitcoin — do básico ao técnico — incluindo 101 Perguntas sobre Bitcoin."
 ---
+
+**Para começar a aprender Bitcoin, esta seleção reúne 101 Perguntas sobre Bitcoin, O Pequeno Livro do Bitcoin, Inventando o Bitcoin, O Padrão Bitcoin e O Livro de Satoshi.** A ordem abaixo é a avaliação editorial de Breno Brito, autor do primeiro livro recomendado, e considera nível e objetivo de leitura. Veja também o [guia de perguntas e fontes](/aprender-bitcoin/).
 
 Para quem quer aprender **Bitcoin** com calma e com fundamento (sem depender de “dica rápida”), um bom livro continua sendo o caminho mais eficiente: dá contexto, organiza conceitos e ajuda a reduzir a chance de cair em narrativas ruins e golpes.
 

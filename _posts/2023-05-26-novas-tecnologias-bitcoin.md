@@ -1,4 +1,5 @@
 ---
+permalink: /capítulo%20aberto/tecnologia/2023/12/25/novas-tecnologias-bitcoin/
 title: Quais novas tecnologias devem surgir nos próximos anos no Bitcoin?
 date: 2023-12-26 00:00:00
 categories:

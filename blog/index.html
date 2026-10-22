@@ -8,7 +8,7 @@ show_in_navigation: true
 navigation_order: 1
 ---
 
-<p class="editable">Veja o que andam falando sobre o livro na mídia, erratas e conteúdos adicionais sobre bitcoin.</p>
+<p class="lead">Encontre capítulos abertos de <em>101 Perguntas sobre Bitcoin</em>, guias de leitura e referências para estudar Bitcoin em português. Para começar pelos fundamentos, veja o <a href="/aprender-bitcoin/">guia de perguntas e fontes</a>.</p>
 
 <ol class="post-list">
 	{% for post in paginator.posts %}
@@ -33,3 +33,18 @@ navigation_order: 1
 		{% endif %}
 	</div>
 {% endif %}
+
+<section aria-labelledby="topics-heading">
+  <h2 id="topics-heading">Leia por assunto</h2>
+  {% assign categories = site.categories | sort %}
+  {% for category in categories %}
+  <section aria-labelledby="category-{{ category[0] | slugify }}">
+    <h3 id="category-{{ category[0] | slugify }}">{{ category[0] }}</h3>
+    <ul>
+      {% for post in category[1] %}
+      <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+</section>

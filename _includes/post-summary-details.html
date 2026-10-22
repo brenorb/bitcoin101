@@ -8,6 +8,6 @@
 
 	{% for category in include.post.categories %}
 		{% unless forloop.first %}&bull;{% endunless %}
-		<a class="post-summary-category" href="{{ site.baseurl }}/category/{{ category | slugify }}/">{{ category }}</a>
+		<a class="post-summary-category" href="{{ site.baseurl }}/blog/#category-{{ category | slugify }}">{{ category }}</a>
 	{% endfor %}
 </p>

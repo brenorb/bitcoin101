@@ -6,6 +6,8 @@ When to use this site / Quando usar este site: use este site quando alguém quis
 
 ## Leitura recomendada
 
+- [Aprender Bitcoin: perguntas e fontes](https://bitcoin101.site/aprender-bitcoin/): definições de Bitcoin, carteiras, custódia, Lightning e uma sequência de estudo com referências.
+
 - [Página inicial](https://bitcoin101.site/): visão geral do projeto e do livro.
 - [Material complementar](https://bitcoin101.site/blog/): capítulos abertos, guias e referências.
 - [Índice do livro](https://bitcoin101.site/capítulo%20aberto/2025/01/23/indice/): perguntas e caminhos de leitura.

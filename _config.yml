@@ -38,6 +38,11 @@ social:
 # timezone: Etc/UTC
 timezone: America/Sao_Paulo
 
+# Keep raw Markdown references as files. GitHub Pages otherwise turns index.md
+# into a second homepage and creates duplicate helper landing pages.
+optional_front_matter:
+  enabled: false
+
 paginate: 10
 paginate_path: "/blog/:num/"
 
@@ -81,8 +86,8 @@ mathjax:            true
 
 
 jekyll-archives:
-  enabled:
-    - categories
+  # Topic navigation uses blog anchors; explicit legacy redirects work on Pages.
+  enabled: []
 
 plugins:
   - jekyll-archives

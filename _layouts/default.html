@@ -7,6 +7,7 @@
 
 		{% seo %}
 		{% feed_meta %}
+		{% if page.robots %}<meta name="robots" content="{{ page.robots | escape }}">{% endif %}
 
 		{%- assign meta_title = page.title | default: site.title -%}
 		{%- assign meta_description = page.description | default: page.excerpt | default: site.description | strip_html | strip_newlines | replace: '  ', ' ' | truncate: 200 -%}
@@ -82,12 +83,12 @@
 		      "@type": "Book",
 		      "@id": "https://bitcoin101.site/#book",
 		      "name": "101 Perguntas sobre Bitcoin",
-		      "url": "https://bit.ly/101BTC",
+		      "url": "https://bitcoin101.site/101-perguntas-sobre-bitcoin/",
 		      "image": "https://bitcoin101.site/uploads/livro.avif",
 		      "description": "Guia estruturado em perguntas e respostas para entender Bitcoin sem hype e sem promessas.",
 		      "inLanguage": "pt-BR",
 		      "author": { "@id": "https://brenorb.com/#person" },
-		      "publisher": { "@id": "https://bitcoin101.site/#organization" }
+		      "publisher": { "@type": "Organization", "name": "Editora Portal do Bitcoin", "url": "https://portaldobitcoin.uol.com.br/" }
 		    },
 		    {
 		      "@type": "Service",

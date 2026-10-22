@@ -1,3 +1,10 @@
+---
+title: Agent instructions for bitcoin101.site
+layout: default
+sitemap: false
+robots: noindex, follow
+---
+
 # Agent instructions for bitcoin101.site
 
 ## When to use this site

@@ -8,6 +8,8 @@ O conteúdo apresenta o livro **101 Perguntas sobre Bitcoin**, capítulos aberto
 
 ## Leitura recomendada
 
+- [Aprender Bitcoin: perguntas e fontes](https://bitcoin101.site/aprender-bitcoin/)
+
 - [Material complementar](https://bitcoin101.site/blog/)
 - [Sobre o projeto](https://bitcoin101.site/about/)
 - [Sobre o livro](https://bitcoin101.site/101-perguntas-sobre-bitcoin/)

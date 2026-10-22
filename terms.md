@@ -1,5 +1,6 @@
 ---
-title: Terms
+title: Termos de uso
+hide_page_title: true
 last_modified_at: 2026-08-22
 call_to_action: Contact
 background_image_path:
