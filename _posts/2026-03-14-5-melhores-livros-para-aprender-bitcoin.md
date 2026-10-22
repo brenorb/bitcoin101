@@ -1,4 +1,5 @@
 ---
+last_modified_at: 2026-10-22
 permalink: /guia/iniciantes/livros/2026/03/13/5-melhores-livros-para-aprender-bitcoin/
 title: "Os 5 melhores livros para começar a aprender Bitcoin"
 date: 2026-03-14 00:00:00
