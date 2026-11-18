@@ -1,7 +1,4 @@
 ---
-description: "Fontes para estudar Bitcoin em português: introduções, livros, documentação técnica e ferramentas para conferir informações."
-last_modified_at: 2026-10-22
-permalink: /capítulo%20aberto/2023/12/26/onde-posso-informar-melhor/
 title: Capítulo 100 - Onde Posso Me Informar Melhor?
 date: 2023-12-27 00:00:00
 categories:

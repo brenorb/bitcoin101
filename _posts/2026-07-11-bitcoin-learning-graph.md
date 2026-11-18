@@ -1,5 +1,4 @@
 ---
-permalink: /guia/estudo/tecnologia/2026/07/10/bitcoin-learning-graph/
 title: "Um mapa para estudar Bitcoin sem se perder"
 date: 2026-07-11 00:00:00
 categories:

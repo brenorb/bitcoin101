@@ -8,10 +8,10 @@
     {
       "identifier": "urn:air:bitcoin101.site:knowledge:bitcoin-learning",
       "displayName": "Recursos para aprender Bitcoin",
-      "type": "text/html",
-      "url": "https://bitcoin101.site/aprender-bitcoin/",
+      "type": "text/markdown",
+      "url": "https://bitcoin101.site/index.md",
       "description": "Conteúdo educacional em português sobre fundamentos, segurança, custódia e caminhos de estudo de Bitcoin.",
-      "capabilities": ["KnowledgeResource", "HTML"],
+      "capabilities": ["KnowledgeResource", "Markdown"],
       "representativeQueries": [
         "o que é Bitcoin",
         "como estudar Bitcoin com segurança",
