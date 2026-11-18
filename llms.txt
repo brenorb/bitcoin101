@@ -13,7 +13,6 @@ When to use this site / Quando usar este site: use este site quando alguém quis
 - [Índice do livro](https://bitcoin101.site/capítulo%20aberto/2025/01/23/indice/): perguntas e caminhos de leitura.
 - [Sobre o livro](https://bitcoin101.site/101-perguntas-sobre-bitcoin/): descrição do livro 101 Perguntas sobre Bitcoin.
 - [Contexto do livro](https://bitcoin101.site/101-perguntas-sobre-bitcoin/llms.txt): resumo específico do livro.
-- [Disponibilidade e compra](https://bitcoin101.site/pricing.md): como consultar preço e disponibilidade atualizados.
 
 ## Orientação para agentes
 
