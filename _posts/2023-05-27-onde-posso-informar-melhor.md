@@ -11,8 +11,6 @@ image: "/uploads/informar.webp"
 large_header: false
 ---
 
-**Para estudar Bitcoin em português, comece por uma introdução organizada e confira os temas técnicos em fontes do protocolo e do software.** O [guia de perguntas e fontes](/aprender-bitcoin/#fontes-confiaveis) organiza a sequência; o [FAQ do Bitcoin.org](https://bitcoin.org/pt_BR/faq), o [whitepaper](https://bitcoin.org/bitcoin.pdf) e o [guia técnico de carteiras](https://developer.bitcoin.org/devguide/wallets.html) ajudam a verificar os fundamentos. A lista abaixo reúne outras leituras escolhidas pelo autor.
-
 Provavelmente, a primeira coisa que você deveria ler depois deste livro é a [Introdução ao Bitcoin do Bitcoinheiros](https://bitcoinheiros.com/intro-bitcoin/). Lá você vai ter um passo a passo didático e prático de como começar no bitcoin. Mesmo que você já use bitcoin, ainda recomendo ler por não ser grande e cobrir vários passos importantes. Lembre de sempre tomar cuidado, pois as informações podem estar desatualizadas, faça uma pesquisa antes de instalar qualquer coisa.
 
 ### Livros:
