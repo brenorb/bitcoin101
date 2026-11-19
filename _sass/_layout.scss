@@ -4,21 +4,6 @@ body {
 	background-color: #fefefe;
 }
 
-.skip-link {
-	position: absolute;
-	left: 16px;
-	top: 8px;
-	transform: translateY(-150%);
-	background: #3e3f46;
-	color: #fff;
-	padding: 8px 12px;
-	z-index: 10;
-
-	&:focus {
-		transform: translateY(0);
-	}
-}
-
 .container {
 	max-width: 960px;
 	margin: 0 auto;
@@ -42,23 +27,6 @@ header {
 	img { 
 		width: 275px; // new
 		vertical-align: bottom; // new
-
-		&.site-header-image-large {
-			width: 388px;
-		}
-	}
-
-	.site-title {
-		display: block;
-		font-family: 'Quattrocento', Georgia, serif;
-		font-size: 6.5rem;
-		letter-spacing: 0.18em;
-		line-height: 1.25;
-		text-transform: uppercase;
-
-		@media (max-width: $mobile-break) {
-			font-size: 3.5rem;
-		}
 	}
 	
 	.container {
@@ -81,10 +49,6 @@ header {
 		img { 
 			width: 274px; // new
 			vertical-align: bottom; // new
-
-			&.site-header-image-large {
-				width: 274px;
-			}
 		}
 
 		&.main-hero {

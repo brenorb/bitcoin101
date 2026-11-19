@@ -1,6 +1,5 @@
 ---
 title:
-last_modified_at: 2026-08-22
 call_to_action: Contact
 background_image_path:
 large_header: true
@@ -31,21 +30,16 @@ author_staff_member: breno-brito
 ---
 
 <div class="editable">
-	<h1>101 Perguntas sobre Bitcoin</h1>
-	<p class="lead"><strong>Aprenda Bitcoin sem hype</strong>, com respostas diretas, contexto e referências para iniciantes e leitores intermediários.</p>
-
-	<p><strong>101 Perguntas sobre Bitcoin</strong> é um guia estruturado em formato de perguntas e respostas, desenhado para levar leitores do zero a uma compreensão sólida sobre Bitcoin, permitindo-lhe navegar o tema com confiança. Com respostas objetivas e diretas, o livro facilita uma leitura rápida e acessível, abrangendo temas essenciais para desmistificar o universo do Bitcoin. </p>
+  <p><strong>101 Perguntas sobre Bitcoin</strong> é um guia estruturado em formato de perguntas e respostas, desenhado para levar leitores do zero a uma compreensão sólida sobre Bitcoin, permitindo-lhe navegar o tema com confiança. Com respostas objetivas e diretas, o livro facilita uma leitura rápida e acessível, abrangendo temas essenciais para desmistificar o universo do Bitcoin. </p>
     
 	<p>O livro é ideal para iniciantes que buscam uma base sólida, mas também reserva curiosidades que mantêm a leitura interessante para quem já possui mais conhecimento sobre o tema. O livro almeja ser uma fonte de informação clara e concisa para esclarecer as principais dúvidas sobre o Bitcoin.</p>
-
-	<p>O <a href="https://github.com/brenorb/bitcoin101">código-fonte público</a> e as <a href="https://github.com/brenorb/bitcoin101/blob/main/agents.md">instruções para agentes</a> explicam como encontrar e usar este material.</p>
 </div>
 
 <div class="testimonials">
 	{% for testimonial in page.testimonials %}
 		<blockquote class="testimonial">
 			<p class="testimonial-message">{{ testimonial.message }}</p>
-			<p class="testimonial-author"><img src="{% include relative-src.html src=testimonial.image %}" alt="Foto de {{ testimonial.name }}" width="30" height="30" loading="lazy" decoding="async"> {{ testimonial.name }}</p>
+			<p class="testimonial-author"><img src="{% include relative-src.html src=testimonial.image %}" alt="Photo of {{ testimonial.name }}"> {{ testimonial.name }}</p>
 		</blockquote>
 	{% endfor %}
 </div>
@@ -58,19 +52,3 @@ author_staff_member: breno-brito
 
 	{% include staff-member.html member=author %}
 </div>
-
-<section aria-labelledby="faq-heading">
-	<h2 id="faq-heading">Perguntas frequentes</h2>
-	<details>
-		<summary>Para quem é este site?</summary>
-		<p>Para iniciantes e leitores intermediários que querem aprender Bitcoin em português com contexto, fundamentos e referências.</p>
-	</details>
-	<details>
-		<summary>Este site oferece recomendação de investimento?</summary>
-		<p>Não. O conteúdo é educacional e não substitui orientação personalizada ou atualizada sobre investimentos, segurança, software, impostos ou legislação.</p>
-	</details>
-	<details>
-		<summary>Por onde começar?</summary>
-		<p>Comece pela homepage, consulte o material complementar e use o índice do livro para escolher uma pergunta ou capítulo.</p>
-	</details>
-</section>
