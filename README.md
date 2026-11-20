@@ -20,5 +20,3 @@ bundle exec jekyll build --trace
 ```
 
 O índice para leitura automatizada está em [`llms.txt`](https://bitcoin101.site/llms.txt).
-
-Configurações para agentes de código estão em [`.cursorrules`](https://github.com/brenorb/bitcoin101/blob/main/.cursorrules) e [`.github/AGENTS.md`](https://github.com/brenorb/bitcoin101/blob/main/.github/AGENTS.md).
