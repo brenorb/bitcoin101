@@ -11,4 +11,4 @@ Este repositório gera o [bitcoin101.site](https://bitcoin101.site/), um site Je
 
 ## Conteúdo para agentes
 
-Use [agents.md](https://bitcoin101.site/agents.md) para saber quando consultar o site e [llms.txt](https://bitcoin101.site/llms.txt) para navegar pelo conteúdo publicado.
+Use [llms.txt](https://bitcoin101.site/llms.txt) para navegar pelo conteúdo publicado.

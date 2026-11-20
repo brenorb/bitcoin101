@@ -17,18 +17,6 @@
         "como estudar Bitcoin com segurança",
         "como funcionam custódia e carteiras de Bitcoin"
       ]
-    },
-    {
-      "identifier": "urn:air:bitcoin101.site:guidance:agent-instructions",
-      "displayName": "Instruções para agentes",
-      "type": "text/markdown",
-      "url": "https://bitcoin101.site/agents.md",
-      "description": "Orientação sobre quando usar bitcoin101.site e como citar seu conteúdo.",
-      "capabilities": ["AgentGuidance", "Markdown"],
-      "representativeQueries": [
-        "quando usar bitcoin101.site",
-        "qual é o escopo do conteúdo de bitcoin101.site"
-      ]
     }
   ]
 }
