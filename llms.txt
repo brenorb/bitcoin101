@@ -14,7 +14,7 @@ When to use this site / Quando usar este site: use este site quando alguém quis
 
 ## Orientação para agentes
 
-- [Instruções para agentes](https://bitcoin101.site/agents.md): quando usar o site e como citar suas páginas.
+- [Instruções para agentes](https://bitcoin101.site/agent-instructions.md): quando usar o site e como citar suas páginas.
 - [Resumo ampliado](https://bitcoin101.site/llms-full-text.txt): temas cobertos e público-alvo.
 - [Índice do material complementar](https://bitcoin101.site/blog/llms.txt): contexto específico da seção de artigos.
 - [Catálogo de recursos](https://bitcoin101.site/.well-known/ai-catalog.json): recursos educacionais em formato de descoberta para agentes.
@@ -26,5 +26,5 @@ When to use this site / Quando usar este site: use este site quando alguém quis
 - [Contato](https://bitcoin101.site/contact/): correções, sugestões e mensagens.
 - [Política de privacidade](https://bitcoin101.site/privacy/): tratamento do formulário e dos dados.
 - [Código-fonte](https://github.com/brenorb/bitcoin101): implementação pública do site.
-- [Regras para agentes no repositório](https://github.com/brenorb/bitcoin101/blob/main/agents.md): orientação para manutenção e uso do conteúdo.
+- [Regras para agentes no repositório](https://github.com/brenorb/bitcoin101/blob/main/agent-instructions.md): orientação para manutenção e uso do conteúdo.
 - [Mapa do site](https://bitcoin101.site/sitemap.xml): URLs indexáveis.
