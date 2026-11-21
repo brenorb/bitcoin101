@@ -13,12 +13,14 @@ Provavelmente, a primeira coisa que você deveria ler depois deste livro é a [I
 ### Livros:
 
 - [**O Pequeno Livro do Bitcoin: Por que Bitcoin Importa para Sua Liberdade, Finanças e Futuro**](https://amzn.to/4hjeYNf) - Jimmy Song, Luis Buenaventura, Alejandro Machado, Alena Vranova, Timi Ajiboye, Alex Gladstein and Alexander Lloyd
-- [**Inventando o Bitcoin: Explicando a tecnologia por trás do primeiro dinheiro verdadeiramente escasso e descentralizado**](https://amzn.to/4h1myfe) – Yan Pritzker88
+- [**Inventando o Bitcoin: Explicando a tecnologia por trás do primeiro dinheiro verdadeiramente escasso e descentralizado**](https://amzn.to/4h1myfe) – Yan Pritzker
 - [**O Padrão Bitcoin: A Alternativa Descentralizada ao Banco Central**](https://amzn.to/4h5HwJO) – Saifedean Ammous
 - [**O Padrão Fiduciário: A alternativa da escravidão por dívidas para a civilização humana**](https://amzn.to/4jiUHsx) – Saifedean Ammous
 - [**O Livro de Satoshi: A obra que reúne tudo o que o criador do Bitcoin escreveu**](https://amzn.to/3E25veh) – Phil Champagne
 - [**Mastering Bitcoin: Programming the Open Blockchain**](https://amzn.to/4gdID90) – Andreas Antonopoulos
 - [**The Blocksize War: The battle over who controls Bitcoin’s protocol rules**](https://amzn.to/4gUTVAd) – Jonathan Bier
+
+Para organizar a leitura, consulte também os [livros para iniciantes]({% post_url 2026-03-14-5-melhores-livros-para-aprender-bitcoin %}) e o [percurso com livros técnicos]({% post_url 2026-10-13-livros-tecnicos-bitcoin %}).
 
 ### Lista de sites com para conhecer mais:
 

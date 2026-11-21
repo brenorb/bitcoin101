@@ -69,7 +69,9 @@ Por que costuma funcionar bem como **primeira leitura**:
 
 São ótimos — só que, para iniciantes, geralmente é cedo demais.
 
-Quando a intenção for programar, rodar nó, entender transações, scripts e detalhes técnicos, aí sim faz sentido migrar para materiais como **Mastering Bitcoin** (Andreas Antonopoulos), preferencialmente depois de consolidar fundamentos.
+Quando a intenção for programar, rodar nó, entender transações, scripts e detalhes técnicos, aí sim faz sentido migrar para materiais como **Mastering Bitcoin** (Andreas M. Antonopoulos e David A. Harding, na terceira edição), preferencialmente depois de consolidar fundamentos.
+
+Para esse próximo passo, consulte o [guia de livros técnicos, com fontes dos autores e sugestões de estudo]({% post_url 2026-10-13-livros-tecnicos-bitcoin %}).
 
 ## Perguntas comuns (FAQ)
 
